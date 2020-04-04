@@ -7,6 +7,21 @@ If you use our source code or dataset, please consider citing our paper.
 [1] **Preference-Aware Task Assignment in On-Demand Taxi Dispatching: An Online Stable Matching Approach.**
 *Boming Zhao, Pan Xu, Yexuan Shi, Yongxin Tong, Zimu Zhou, Yuxiang Zeng.* AAAI 2019: 2245-2252. [link](https://doi.org/10.1609/aaai.v33i01.33012245)
 
+If you find our work helpful in your research, please consider citing our papers and the bibtex are listed below:
+```  
+@inproceedings{DBLP:conf/aaai/ZhaoXSTZZ19,
+  author    = {Boming Zhao and
+               Pan Xu and
+               Yexuan Shi and
+               Yongxin Tong and
+               Zimu Zhou and
+               Yuxiang Zeng},
+  title     = {Preference-Aware Task Assignment in On-Demand Taxi Dispatching: An Online Stable Matching Approach},
+  booktitle = {{AAAI}},
+  pages     = {2245--2252},
+  year      = {2019},
+}
+```
 
 Usage of the algorithms
 ---------------
