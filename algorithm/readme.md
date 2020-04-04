@@ -1,28 +1,7 @@
-# OSM: Preference-Aware Task Assignment in On-Demand Taxi Dispatching: An Online Stable Matching Approach
-========================================================================
-
-This repository stores the source code of the solutions to the problem called OSM-KIID in the following paper.
-If you use our source code or dataset, please consider citing our paper.
-
-[1] **Preference-Aware Task Assignment in On-Demand Taxi Dispatching: An Online Stable Matching Approach.**
-*Boming Zhao, Pan Xu, Yexuan Shi, Yongxin Tong, Zimu Zhou, Yuxiang Zeng.* AAAI 2019: 2245-2252. [link](https://doi.org/10.1609/aaai.v33i01.33012245)
-
-
-Usage of the algorithms
----------------
-
-### Environment
-
-Google OR tools: v6.7 [url](https://developers.google.com/optimization/install/cpp/)
-
-gcc/g++ version: 7.4.0 
-
-OS: Ubuntu
-
-
-### Compile
+#### Read Me of AAAI'18
 
 To use our method proposed in AAAI'19, you should first execute "stable_lp.cpp" to get a feasible LP solution. Then execute "AAAI.cpp" to obtain the final result.
+
 
 To complie the "stable_lp.cpp", you need first install the or_tools for C++ [link](https://developers.google.com/optimization/install/cpp/).
 
@@ -32,7 +11,7 @@ Finally, you can compile and execute "AAAI.cpp" as follows: "./AAAI19 test.sim t
 
 Here are the formats of these three files: 
 
-##### test.sim
+####### test.sim
 
 It is the raw test data.
 
@@ -44,7 +23,7 @@ Next $n$ lines, each line contains a integer $id$ and a float $val$, which means
 
 Next $E$ lines, each line conatains two intergers $(u, v)$, which means there are an edge between worker $u$ and task $v$. 
 
-##### test.lp
+####### test.lp
 
 It is the input data of linear programming solver.
 
@@ -56,7 +35,7 @@ Next $n$ lines, each line contains a integer $id$ and a float $val$, which means
 
 Next $E$ lines, each line conatains two intergers $(u, v)$, which means there are an edge between worker $u$ and task $v$. 
 
-##### test.sol
+####### test.sol
 
 It is the solution of linear programming, each line contains a float.
 
@@ -68,14 +47,3 @@ The last $E$ floats means the value of $x_f$.
 
 The meaning of $y_u, y_v, x_f$ can be found in the benchmark LP of our paper.
  
-
-Description of the dataset
-------------
-For the taxi-calling orders in Chengdu city, please request for the open dataset in the [website of GAIA](https://outreach.didichuxing.com/research/opendata/).
-We do not have the permit to distribute the dataset.
- 
-Contact
-------------
-- Yexuan Shi: skyxuan@buaa.edu.cn
-- Yongxin Tong: yxtong@buaa.edu.cn
-- Yuxiang Zeng: yzengal@cse.ust.hk
