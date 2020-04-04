@@ -89,6 +89,11 @@ Description of the dataset
 For the taxi-calling orders in Chengdu city, please request for the open dataset in the [website of GAIA](https://outreach.didichuxing.com/research/opendata/).
 We do not have the permit to distribute the dataset.
  
+Related resources
+------------------------
+We have maintained a paper list of the studies on spatial crowdsourcing. [link](https://github.com/BUAA-BDA/SpatialCrowdsourcing-Survey)
+ 
+ 
 Contact
 ------------
 - Yexuan Shi: skyxuan@buaa.edu.cn
